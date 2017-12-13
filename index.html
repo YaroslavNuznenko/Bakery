@@ -16,7 +16,64 @@
 </head>
 <body>
 
-<!--//= tmp/header__tmp.html-->
+<header style="background-image: url('dist/img/header-back.png')">
+   <div class="headerWrap">
+       <div class="container">
+           <div class="headerNav">
+               <div class="headerNav__logo"><h1>Gustoso</h1></div>
+               <button class="headerNav__hamburger hamburger hamburger--spring" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                  </span>
+               </button>
+               <div class="headerNav__collapsedMenu">
+                   <ul class="headerNav__menu menu">
+                       <li class="menu__mainReference menu__item">
+                           <a href="#">Welcome</a>
+                       </li>
+                       <li class="menu__horizontalDivider menu__item">~</li>
+                       <li class="menu__mainReference menu__item">
+                           <a href="#">Menu</a>
+                       </li>
+                       <li class="menu__horizontalDivider menu__item">~</li>
+                       <li class="menu__mainReference menu__item">
+                           <a href="#">Reservations</a>
+                       </li>
+                       <li class="menu__horizontalDivider menu__item">~</li>
+                       <li class="menu__mainReference menu__item">
+                           <a href="#">News</a>
+                       </li>
+                       <li class="menu__horizontalDivider menu__item">~</li>
+                       <li class="menu__mainReference menu__item">
+                           <a href="#">Contact</a>
+                       </li>
+                   </ul>
+                   <div class="headerNav__networkIcons networkIcons">
+                       <a href="#" class="networkIcons__item">
+                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                       </a>
+                       <a href="#" class="networkIcons__item">
+                           <i class="fa fa-facebook" aria-hidden="true"></i>
+                       </a>
+                       <a href="#" class="networkIcons__item">
+                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                       </a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+    <div class="textNav">
+        <h1 class="textNav__mainHeader">Pastry with love</h1>
+        <div class="textNav__divider">
+            <img src="dist/img/dashed-line.png" alt="">
+        </div>
+        <p class="textNav__description">
+            We’re bringing you fresh ingredients every day in ways you can’t resist.
+        </p>
+        <a href="#" class="textNav__button">Our menu</a>
+    </div>
+</header>
 
 <section class="artCakeSection" style="background-image: url('dist/img/art-back.png')">
    <div class="container artCake">
@@ -62,13 +119,195 @@
    </div>
 </section>
 
-<!--//= tmp/testyPancake__tmp.html-->
+<script src="../../build/dist/js/main.js"></script>
+<section class="tastyPancake" style="background-image: url('dist/img/tasty-back.png');">
+    <div class="container">
+        <div class="tastyPancake__wrap">
+            <div class="tastyPancake__readyIn readyIn" style="background-image: url('dist/img/readyIn-bg.png');">
+                <h2 class="readyIn__smallHeader">ready in</h2>
+                <h1 class="readyIn__timeHeader">40</h1>
+                <h3 class="readyIn__minsHeader">mins</h3>
+            </div>
+            <div class="tastyPancake__dishImage" style="background-image: url('dist/img/tasty-item.png');">
+            </div>
+            <div class="tastyPancake__description dishDescr">
+                <h1 class="dishDescr__mainHeader">Tasty pancakes</h1>
+                <h2 class="dishDescr__smallHeader">Season favourite</h2>
+                <p class="dishDescr__mainPar">
+                    Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.
+                </p>
+                <div class="dishDescr__slider slider">
+                    <div class="slider__item"><img class="slider__item" src="dist/img/tastySlider-1.png" alt=""></div>
+                    <div class="slider__item"><img class="slider__item" src="dist/img/tastySlider-2.png" alt=""></div>
+                    <div class="slider__item"><img class="slider__item" src="dist/img/tastySlider-3.png" alt=""></div>
+                    <div class="slider__item"><img class="slider__item" src="dist/img/tastySlider-4.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!--//= tmp/breakfast__tmp.html-->
+<section class="breakfast" style="background-image: url('dist/img/breakfast-back.png');">
+    <div class="container">
+        <div class="breakfast__wrap">
+            <div class="breakfast__descr">
+                <h1 class="breakfast__mainHeader">Breakfast</h1>
+                <h2 class="breakfast__smallHeader">7'am breakfast? we're open!</h2>
+                <div class="breakfast__price priceItem">
+                    <h1 class="priceItem__mainHeader">Full Breakfast</h1>
+                    <p class="priceItem__descr">Duis ut tortor, et risus, vulputate pretium</p>
+                    <h2 class="priceItem__priceNum">$12.49</h2>
+                </div>
+                <div class="breakfast__price priceItem">
+                    <h1 class="priceItem__mainHeader">Toast & Jam</h1>
+                    <p class="priceItem__descr">Suspendisse, tempus, nterdum</p>
+                    <h2 class="priceItem__priceNum">$4.90</h2>
+                </div>
+                <div class="breakfast__price priceItem">
+                    <h1 class="priceItem__mainHeader">Muffins</h1>
+                    <p class="priceItem__descr">Fusce eget dui sodales est</p>
+                    <h2 class="priceItem__priceNum">$3.95</h2>
+                </div>
+            </div>
+            <div class="breakfast__infoPanelWrap">
+                <div class="breakfast__infoPanel infoPanel">
+                   <div class="infoPanel__insideWrap">
+                       <div class="infoPanel__wordInline wordInline">
+                           <h1 class="wordInline__word wordInline__est">est.</h1>
+                           <h1 class="wordInline__word wordInline__year">1893</h1>
+                       </div>
+                       <img class="infoPanel__line" src="dist/img/infoPanel_line.png" alt="">
+                       <h1 class="infoPanel__mainHeader">Your morning
+                           Escape with Flair</h1>
+                       <p class="infoPanel__descr">Donec vitae sapien ut libero venenatis faucibus.Nullam quis ante. Etiam sit amet orci eget erosfaucibus tincidunt. Duis leo.</p>
+                       <button class="infoPanel__btnRead">
+                           Read
+                       </button>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!--//= tmp/sandwich__tmp.html-->
+<section class="sandwich">
+    <div class="container">
+        <h1 class="sandwich__mainHeader">
+            The Jibarito sandwich
+        </h1>
+        <h2 class="sandwich__smallHeader">the best sandwich you’ve ever tasted!</h2>
+        <div class="sandwich__insideWrap">
+            <div class="sandwich__verticalSlider verticalSlider">
+                <div class="verticalSlider__item vertSliderItem">
+                    <div class="vertSliderItem__image">
+                        <img src="dist/img/sandwichItem-1.png" alt="">
+                    </div>
+                    <h1 class="vertSliderItem__mainHeader">Class aptent</h1>
+                    <p class="vertSliderItem__par">
+                        Quot alienum persecuti ut eam, nam ad
+                        atqui primis nusquam.
+                    </p>
+                </div>
+                <div class="verticalSlider__item vertSliderItem">
+                    <div class="vertSliderItem__image">
+                        <img src="dist/img/sandwichItem-2.png" alt="">
+                    </div>
+                    <h1 class="vertSliderItem__mainHeader">Nulla eget</h1>
+                    <p class="vertSliderItem__par">
+                        Nullam dictum felis eu pede mollis
+                        pretium Integer tincidunt
+                    </p>
+                </div>
+                <div class="verticalSlider__item vertSliderItem">
+                    <div class="vertSliderItem__image">
+                        <img src="dist/img/sandwichItem-3.png" alt="">
+                    </div>
+                    <h1 class="vertSliderItem__mainHeader">Sed nibh purus</h1>
+                    <p class="vertSliderItem__par">
+                        Aenean eleifend tellus leo ligula,
+                        porttitor eu, consequat vitae.
+                    </p>
+                </div>
+                <div class="verticalSlider__item vertSliderItem">
+                    <div class="vertSliderItem__image">
+                        <img src="dist/img/sandwichItem-4.png" alt="">
+                    </div>
+                    <h1 class="vertSliderItem__mainHeader">Nulla eget</h1>
+                    <p class="vertSliderItem__par">
+                        Nullam dictum felis eu pede mollis
+                        pretium Integer tincidunt
+                    </p>
+                </div>
+            </div>
+            <div class="sandwich__Image sandwichImage" style="background-image: url('dist/img/sandwich.png');">
+                <div class="sandwichImage__descrBlock">
+                    <h3 class="sandwichImage__recipeHeader">full recipe</h3>
+                </div>
+                <div class="sandwichImage__timeBlock">
+                    <div class="sandwichImage__prepBlock timeBlock">
+                        <h2 class="timeBlock__smallHeader">prep</h2>
+                        <h1 class="timeBlock__timeHeader">15</h1>
+                        <h3 class="timeBlock__minsHeader">mins</h3>
+                    </div>
+                    <div class="sandwichImage__cookBlock timeBlock">
+                        <h2 class="timeBlock__smallHeader">cook</h2>
+                        <h1 class="timeBlock__timeHeader">30</h1>
+                        <h3 class="timeBlock__minsHeader">mins</h3>
+                    </div>
+                    <div class="sandwichImage__readyIn readyIn" style="background-image: url('dist/img/readyIn-bg.png');">
+                        <h2 class="readyIn__smallHeader">ready in</h2>
+                        <h1 class="readyIn__timeHeader">50</h1>
+                        <h3 class="readyIn__minsHeader">mins</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-<!--//= tmp/footer__tmp.html-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__navbar">
+            <!--<ul class="footer__menu menu">-->
+                <!--<li class="menu__mainReference menu__item menu__item&#45;&#45;blackRef">-->
+                    <!--<a href="#">Our menu</a>-->
+                <!--</li>-->
+                <!--<li class="menu__horizontalDivider menu__item menu__item&#45;&#45;blackRef">~</li>-->
+                <!--<li class="menu__mainReference menu__item menu__item&#45;&#45;blackRef">-->
+                    <!--<a href="#">Gallery</a>-->
+                <!--</li>-->
+                <!--<li class="menu__horizontalDivider menu__item menu__item&#45;&#45;blackRef">~</li>-->
+                <!--<li class="menu__mainReference menu__item menu__item&#45;&#45;blackRef">-->
+                    <!--<a href="#">Culture</a>-->
+                <!--</li>-->
+            <!--</ul>-->
+            <div class="footer__copyright footer__allInfo">
+                <h1>COPYRIGHT © 2017, Bakery </h1>
+                <h1>ALL RIGHTS RESERVED</h1>
+            </div>
+            <div class="footer__logo">
+                <h1>Gustoso</h1>
+            </div>
+            <div class="footer__powered footer__allInfo">
+                <h1>Created by YaroslavNuznenko</h1>
+            </div>
+            <!--<ul class="footer__menu menu">-->
+                <!--<li class="menu__mainReference menu__item menu__item&#45;&#45;blackRef">-->
+                    <!--<a href="#">Events</a>-->
+                <!--</li>-->
+                <!--<li class="menu__horizontalDivider menu__item menu__item&#45;&#45;blackRef">~</li>-->
+                <!--<li class="menu__mainReference menu__item menu__item&#45;&#45;blackRef">-->
+                    <!--<a href="#">Catering</a>-->
+                <!--</li>-->
+                <!--<li class="menu__horizontalDivider menu__item menu__item&#45;&#45;blackRef">~</li>-->
+                <!--<li class="menu__mainReference menu__item menu__item&#45;&#45;blackRef">-->
+                    <!--<a href="#">Visit us</a>-->
+                <!--</li>-->
+
+            <!--</ul>-->
+        </div>
+    </div>
+</footer>
 
 <script src="dist/js/jquery.min.js"></script>
 <script src="dist/js/bootstrap.min.js"></script>
